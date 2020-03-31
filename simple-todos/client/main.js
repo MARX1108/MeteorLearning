@@ -2,6 +2,8 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 import '../imports/ui/body.js';
 import './main.html';
+import '../imports/startup/accounts-config.js';
+
 
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
